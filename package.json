@@ -1,0 +1,23 @@
+{
+  "name": "react-filedownload",
+  "version": "1.0.0",
+  "description": "react filedownload, transfrom json array to xlsx file",
+  "main": "inde.js",
+  "scripts": {
+    "build": "webpack --optimize-minimize --color -p --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "file-saver": "^1.3.3",
+    "xlsx": "^0.11.19"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^3.10.0"
+  }
+}
