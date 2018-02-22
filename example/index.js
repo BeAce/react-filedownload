@@ -16,10 +16,11 @@ for (let i = 0; i < 10; i += 1) {
   rows.push(row);
 }
 class DownloadPage extends React.Component {
+  download = () => {
+    json2xlsx.sendFile(name, sheetName, titles, rows);
+  }
+
   render() {
-    download = () => {
-      json2xlsx.sendFile(name, sheetName, titles, rows);
-    }
     return (
       <button onClick={this.download}>download</button>
     )
